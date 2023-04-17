@@ -26,13 +26,14 @@ export const TaskCard: React.FC<ITaskCard> = ({ task, changeStatusTask, removeTa
             {
                 isEdit
                     ? <input
+                        className='card-input'
                         value={updatedText}
                         onChange={(e) => setUpdatedText(e.target.value)}
                         onBlur={updateText}
                     />
-            : <div onDoubleClick={() => setIsEdit(true)}>{task.taskText}</div>
+            : <div className='card-text' onDoubleClick={() => setIsEdit(true)}>{task.taskText}</div>
             }
-            <button onClick={() => removeTask(task.id)}>X</button>
+            <button className='del-button' onClick={() => removeTask(task.id)}>X</button>
         </div>
     )
 }

@@ -8,3 +8,31 @@
     margin-bottom: 10px;
     width: 90%;
 }
+
+.card-text {
+    text-align: left;
+    font-size: 18px;
+    margin: 0 10px 0 10px;
+    outline: none;
+    width: 90%;
+}
+
+.card-input {
+    margin: 0 10px 0 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #2651a0;
+    border-radius: 3px;
+    padding: 0 10px 0 10px;
+    width: 90%;
+    font-size: 18px;
+}
+
+.del-button {
+    margin-left: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #005BFF;
+}
