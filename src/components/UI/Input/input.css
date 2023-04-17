@@ -1,0 +1,15 @@
+.inp {
+    outline: none;
+    width: 280px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid #D9E6FF;
+    font-size: 18px;
+    color: black;
+    padding: 0 0 0 10px;
+}
+
+.inp:focus {
+    border: 1px solid #B4C4E3;
+}
