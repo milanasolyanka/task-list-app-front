@@ -15,12 +15,13 @@ export const App: React.FC = () => {
   const [tasks, setTasks] = useState<ITask[]>([]);
 
   const addTask = (text: string) => {
-    setTasks([...tasks, {
-      id: Date.now(),
-      taskText: text,
-      isDone: false
-    }])
-    setText('')
+    if (text !== '')
+      setTasks([...tasks, {
+        id: Date.now(),
+        taskText: text,
+        isDone: false
+      }])
+      setText('')
   }
   const changeStatusTask = (id: number) => {
     setTasks(tasks.map((element) => {
