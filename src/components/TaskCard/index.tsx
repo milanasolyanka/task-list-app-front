@@ -26,6 +26,7 @@ export const TaskCard: React.FC<ITaskCard> = ({ task, changeStatusTask, removeTa
             {
                 isEdit
                     ? <input
+                        autoFocus={true}
                         className='card-input'
                         value={updatedText}
                         onChange={(e) => setUpdatedText(e.target.value)}
