@@ -1,6 +1,7 @@
 .tskcard {
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: rgb(200, 216, 252);
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
