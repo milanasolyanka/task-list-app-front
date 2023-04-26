@@ -34,7 +34,7 @@ export const TaskCard: React.FC<ITaskCard> = ({ task, changeStatusTask, removeTa
                     />
             : <div className='card-text' onDoubleClick={() => setIsEdit(true)}>{task.taskText}</div>
             }
-            <button className='del-button' onClick={() => removeTask(task.id)}>X</button>
+            <button className='del-button' onClick={() => removeTask(task.id)}>&#10006;</button>
         </div>
     )
 }

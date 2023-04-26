@@ -29,10 +29,21 @@
 }
 
 .del-button {
+    width: 30px;
+    height: 30px;
     margin-left: auto;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
     border: none;
     color: white;
     background-color: #005BFF;
+    padding: 0px 0px 2px 1px;
+}
+
+.del-button:hover {
+    background-color: #0242B6;
+}
+
+.del-button:active {
+    background-color: #022C78;
 }
