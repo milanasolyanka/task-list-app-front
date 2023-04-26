@@ -32,12 +32,12 @@
     width: 30px;
     height: 30px;
     margin-left: auto;
-    border-radius: 15px;
+    border-radius: 50%;
     cursor: pointer;
     border: none;
     color: white;
     background-color: #005BFF;
-    padding: 0px 0px 2px 1px;
+    padding: 0px 0px 2px 0px;
 }
 
 .del-button:hover {
